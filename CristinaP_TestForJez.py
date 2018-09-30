@@ -23,7 +23,7 @@ class TestForJez:
         products_menu.click()
         time.sleep(3)
 
-        pixtar_search = driver.find_element_by_xpath('//a[contains(text(),"PixStor Search")]')
+        pixtar_search = driver.find_element_by_xpath('//a[text()="PixStor Search"]')
         pixtar_search.click()
         time.sleep(3)
 
